@@ -1,4 +1,6 @@
-master="jenkins.example.org"
+jenkins_url="https://jenkins.example.org"
+#jenkins_url="http://localhost:8180"
 agentname="agent.name"
 secret="this-is-secret"
 nice_increment=0
+#use_ipv6="YES"
