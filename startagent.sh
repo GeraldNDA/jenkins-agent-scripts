@@ -8,7 +8,7 @@ if [ -r agent.conf ]; then
 	. agent.conf
 fi
 
-for i in master secret; do
+for i in jenkins_url secret; do
 	eval v=\$$i
 	if [ -z "${v}" ]; then
 		echo "${i} is not defined" >&2
